@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.niu.cs.z1760203.gradecalculator.assignmentActivity"
+    android:background="@drawable/chalkboard">
+
+    <ScrollView
+        android:layout_width="345dp"
+        android:layout_height="240dp"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/textView41"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="590dp"
+        android:layout_below="@+id/assignButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:layout_alignBottom="@+id/scrollView">
+
+
+        <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="Assignment 1 :"
+    android:id="@+id/textView29"
+    android:layout_marginTop="5dp"
+    android:textColor="#ffffff"
+    android:layout_marginLeft="12dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="Assignment 2 :"
+    android:id="@+id/textView30"
+    android:textColor="#ffffff"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="55dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="Assignment 3 :"
+    android:id="@+id/textView31"
+    android:textColor="#ffffff"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="105dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="Assignment 4 :"
+    android:id="@+id/textView32"
+    android:textColor="#ffffff"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="155dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="Assignment 5 :"
+    android:id="@+id/textView33"
+    android:textColor="#ffffff"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="205dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="Assignment 6 :"
+    android:id="@+id/textView34"
+    android:textColor="#ffffff"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="255dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="Assignment 7 :"
+    android:id="@+id/textView35"
+    android:textColor="#ffffff"
+    android:layout_marginTop="305dp"
+    android:layout_marginLeft="12dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="Assignment 8 :"
+    android:id="@+id/textView36"
+    android:textColor="#ffffff"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="355dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="Assignment 9 :"
+    android:id="@+id/textView37"
+    android:textColor="#ffffff"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="405dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="Assignment 10 :"
+    android:id="@+id/textView38"
+    android:textColor="#ffffff"
+    android:layout_marginTop="455dp"
+    android:layout_marginLeft="12dp" />
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="numberDecimal"
+    android:ems="10"
+    android:id="@+id/assign1editText"
+    android:hint="Your score for 100"
+    android:layout_marginTop="-5dp"
+    android:layout_marginLeft="140dp"
+    android:gravity="center_horizontal"
+    />
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="numberDecimal"
+    android:ems="10"
+    android:id="@+id/assign2editText"
+    android:hint="Your score for 100"
+    android:layout_marginTop="45dp"
+    android:layout_marginLeft="140dp"
+    android:gravity="center_horizontal"/>
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="numberDecimal"
+    android:ems="10"
+    android:id="@+id/assign3editText"
+    android:hint="Your score for 100"
+    android:layout_marginTop="95dp"
+    android:layout_marginLeft="140dp"
+    android:gravity="center_horizontal"/>
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="numberDecimal"
+    android:ems="10"
+    android:id="@+id/assign4editText"
+    android:hint="Your score for 100"
+    android:layout_marginTop="145dp"
+    android:layout_marginLeft="140dp"
+    android:gravity="center_horizontal"/>
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="numberDecimal"
+    android:ems="10"
+    android:id="@+id/assign5editText"
+    android:hint="Your score for 100"
+    android:layout_marginTop="195dp"
+    android:layout_marginLeft="140dp"
+    android:gravity="center_horizontal"/>
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="numberDecimal"
+    android:ems="10"
+    android:id="@+id/assign6editText"
+    android:hint="Your score for 100"
+    android:layout_marginTop="245dp"
+    android:layout_marginLeft="140dp"
+    android:gravity="center_horizontal"/>
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="numberDecimal"
+    android:ems="10"
+    android:id="@+id/assign7editText"
+    android:hint="Your score for 100"
+    android:layout_marginTop="295dp"
+    android:layout_marginLeft="140dp"
+    android:gravity="center_horizontal"/>
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="numberDecimal"
+    android:ems="10"
+    android:id="@+id/assign8editText"
+    android:hint="Your score for 100"
+    android:layout_marginTop="345dp"
+    android:layout_marginLeft="140dp"
+    android:gravity="center_horizontal"/>
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="numberDecimal"
+    android:ems="10"
+    android:id="@+id/assign9editText"
+    android:hint="Your score for 100"
+    android:layout_marginTop="395dp"
+    android:layout_marginLeft="140dp"
+    android:gravity="center_horizontal"/>
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="numberDecimal"
+    android:ems="10"
+    android:id="@+id/assign10editText"
+    android:hint="Your score for 100"
+    android:layout_marginTop="445dp"
+    android:layout_marginLeft="140dp"
+    android:gravity="center_horizontal"/>
+
+    </RelativeLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:id="@+id/assignButton"
+        android:src="@drawable/white"
+        android:onClick="assignMe"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Assignments"
+        android:id="@+id/textView28"
+        android:layout_alignTop="@+id/assignButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20sp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/test2TextView"
+        android:layout_marginTop="438dp"
+        android:layout_marginLeft="40dp" />
+
+    <ImageButton
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:id="@+id/calcButton"
+        android:src="@drawable/white"
+        android:layout_above="@+id/imageButton16"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:onClick="calculateGrade" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Calculate Grade"
+        android:id="@+id/textView11"
+        android:layout_alignTop="@+id/calcButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageButton16"
+        android:src="@drawable/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="goBack" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Go To Courses"
+        android:id="@+id/textView40"
+        android:layout_alignTop="@+id/imageButton16"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="26dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Enter your Assignment marks :"
+        android:id="@+id/textView41"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/assignButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+
+</RelativeLayout>
